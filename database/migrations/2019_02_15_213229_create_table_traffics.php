@@ -15,8 +15,11 @@ class CreateTableTraffics extends Migration
     {
         Schema::create('traffics', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('shop_id');
             $table->string('title');
             $table->boolean('enabled')->default(false);
+            $table->foreign('shop_id')
+                    ->references('id')->on('shops');
             $table->timestamps();
         });
     }

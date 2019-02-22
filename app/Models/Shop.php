@@ -23,4 +23,14 @@ class Shop extends Model
         $result = Shop::whereShopId($shop_id)->first();
         return (!$result) ? true : false;
     }
+
+    public function sale()
+    {
+        return $this->hasOne('App\Models\Action', 'shop_id')->where(['type' => 'sale']);
+    }
+
+    public function lead()
+    {
+        return $this->hasOne('App\Models\Action', 'shop_id')->where(['type' => 'lead']);
+    }
 }

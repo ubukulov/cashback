@@ -15,10 +15,13 @@ class CreateTableActions extends Migration
     {
         Schema::create('actions', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('shop_id');
             $table->string('title');
             $table->string('type');
             $table->string('payment_size');
             $table->unsignedInteger('hold_time')->default(0);
+            $table->foreign('shop_id')
+                    ->references('id')->on('shops');
             $table->timestamps();
         });
     }

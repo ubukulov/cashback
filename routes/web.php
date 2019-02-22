@@ -12,4 +12,6 @@
 */
 
 Route::get('/', 'IndexController@welcome');
-Route::get('/shops/{name}', 'IndexController@catalog');
+Route::get('/shops/{id}', 'IndexController@catalog');
+
+Route::get('/user', 'UserController@cabinet');

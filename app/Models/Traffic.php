@@ -8,12 +8,12 @@ class Traffic extends Model
 {
     public $table = 'traffics';
     public $fillable = [
-        'id', 'title', 'enabled', 'created_at', 'updated_at'
+        'id', 'shop_id', 'title', 'enabled', 'created_at', 'updated_at'
     ];
 
-    public static function exists($title)
+    public static function exists($shop_id, $title)
     {
-        $result = Traffic::whereTitle($title)->first();
+        $result = Traffic::where(['shop_id' => $shop_id, 'title' => $title])->first();
         return (!$result) ? true : false;
     }
 }

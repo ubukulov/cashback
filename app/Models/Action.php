@@ -7,12 +7,17 @@ use Illuminate\Database\Eloquent\Model;
 class Action extends Model
 {
     public $fillable = [
-        'id', 'title', 'type', 'payment_size', 'hold_time', 'created_at', 'updated_at'
+        'id', 'shop_id', 'title', 'type', 'payment_size', 'hold_time', 'created_at', 'updated_at'
     ];
 
-    public static function exists($type)
+    public static function exists($shop_id, $type)
     {
-        $result = Action::whereType($type)->first();
+        $result = Action::where(['shop_id' => $shop_id, 'type' => $type])->first();
         return (!$result) ? true : false;
+    }
+
+    public function shop()
+    {
+        return $this->belongsTo('App\Models\Shop', "shop_id");
     }
 }
