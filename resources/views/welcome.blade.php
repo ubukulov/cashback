@@ -2,7 +2,7 @@
 <html class="">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" src="/index_files/5265995e40"></script>
+    {{--<script type="text/javascript" src="/index_files/5265995e40"></script>
     <script src="/index_files/nr-1099.min.js.Без названия"></script>
     <script type="text/javascript" async="" id="topmailru-code" src="/index_files/code.js.Без названия"></script>
     <script type="text/javascript" async="" src="/index_files/analytics.js.Без названия"></script>
@@ -26,7 +26,7 @@
             h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
             (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
         })(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-TLHK888':true});
-    </script>
+    </script>--}}
 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
