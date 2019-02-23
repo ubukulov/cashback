@@ -34,43 +34,17 @@
     <meta content="100001240153624" property="fb:admins">
     <meta content="100015164478059" property="fb:admins">
     <meta name="webgains-site-verification" content="mrkvjoza">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://letyshops.com/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://letyshops.com/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://letyshops.com/favicon-16x16.png">
-    <link rel="icon" type="image/x-icon" href="https://letyshops.com/favicon.ico">
-    <link rel="manifest" href="https://letyshops.com/manifest.json">
-    <link rel="mask-icon" href="https://letyshops.com/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
-    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/lphicbbhfmllgmomkkhjfkpbdlncafbn">
-    <link rel="yandex-store-item" href="yandex-store://cfnigebglkpdgidfjgpkkikmmkkdilph">
 
     <meta name="description" content="Кэшбэк-сервис GdeMoiCash возвращает часть денег с покупок в интернет магазинах Казахстана и мира. Используйте кэшбэк от GdeMoiCash и покупайте с пользой и удовольствием.">
     <meta name="keyword" content="">
 
     <meta name="robots" content="">
 
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="GdeMoiCash">
-    <meta property="og:title" content="Кэшбэк-сервис GdeMoiCash">
-    <meta property="og:description" content="Ты можешь вернуть часть своих денег на карту с онлайн-покупок. Кстати, с нами уже более 1300 магазинов, так что найдешь все — от квадрокоптера до тапочек своей бабуле.">
-    <meta property="og:image" content="https://static.letyshops.com/sites/default/files/external_static/soc/share_new_brand_ru.png">
-    <meta property="og:image:width" content="968">
-    <meta property="og:image:height" content="504">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Кэшбэк-сервис GdeMoiCash">
-    <meta name="twitter:description" content="Ты можешь вернуть часть своих денег на карту с онлайн-покупок. Кстати, с нами уже более 1300 магазинов, так что найдешь все — от квадрокоптера до тапочек своей бабуле.">
-    <meta name="twitter:image:src" content="https://static.letyshops.com/sites/default/files/external_static/soc/share_new_brand_ru.png">
-    <meta name="twitter:url" content="https://gdemoicash.kz">
-    <meta name="twitter:domain" content="https://letyshops.com">
-    <link rel="stylesheet" href="/index_files/css">
-    <link rel="stylesheet" href="/index_files/style.df39beb8194aa86804ba.css">
 
 </head>
 
 <body class="logged-out scroll-up">
-
-<script src="/index_files/load-svg.js.Без названия"></script>
 
 
 
