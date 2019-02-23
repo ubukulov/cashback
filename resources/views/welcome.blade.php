@@ -1,7 +1,22 @@
 <!DOCTYPE html>
-<!-- saved from url=(0024)https://letyshops.com/kz -->
-<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" src="/index_files/5265995e40"></script><script src="/index_files/nr-1099.min.js.Без названия"></script><script type="text/javascript" async="" id="topmailru-code" src="/index_files/code.js.Без названия"></script><script type="text/javascript" async="" src="/index_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="/index_files/ec.js.Без названия"></script><script async="" src="/index_files/main.4a81c615.js.Без названия"></script><script type="text/javascript" async="" src="/index_files/js"></script><script async="" src="/index_files/qevents.js.Без названия"></script><script async="" src="/index_files/core.js.Без названия"></script><script type="text/javascript" async="" src="/index_files/tag.js.Без названия"></script><script async="" src="/index_files/fbevents.js.Без названия"></script><script type="text/javascript" async="" src="/index_files/hotjar-483218.js.Без названия"></script><script type="text/javascript" async="" src="/index_files/analytics.js.Без названия"></script><script async="" src="/index_files/gtm.js.Без названия"></script><script>
+<html class="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="/index_files/5265995e40"></script>
+    <script src="/index_files/nr-1099.min.js.Без названия"></script>
+    <script type="text/javascript" async="" id="topmailru-code" src="/index_files/code.js.Без названия"></script>
+    <script type="text/javascript" async="" src="/index_files/analytics.js.Без названия"></script>
+    <script type="text/javascript" async="" src="/index_files/ec.js.Без названия"></script>
+    <script async="" src="/index_files/main.4a81c615.js.Без названия"></script>
+    <script type="text/javascript" async="" src="/index_files/js"></script>
+    <script async="" src="/index_files/qevents.js.Без названия"></script>
+    <script async="" src="/index_files/core.js.Без названия"></script>
+    <script type="text/javascript" async="" src="/index_files/tag.js.Без названия"></script>
+    <script async="" src="/index_files/fbevents.js.Без названия"></script>
+    <script type="text/javascript" async="" src="/index_files/hotjar-483218.js.Без названия"></script>
+    <script type="text/javascript" async="" src="/index_files/analytics.js.Без названия"></script>
+    <script async="" src="/index_files/gtm.js.Без названия"></script>
+    <script>
         window.dataLayer = [];
     </script>
     <!-- Page hiding snippet (recommended) -->
@@ -12,112 +27,48 @@
             (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
         })(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-TLHK888':true});
     </script>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start':
-                        new Date().getTime(), event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TLHK888');</script>
-    <!-- End Google Tag Manager -->
-
 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Кэшбэк-сервис GdeMoiCash в Казахстане</title>
-    <meta property="fb:app_id" content="698654933542467">
     <meta content="100001240153624" property="fb:admins">
     <meta content="100015164478059" property="fb:admins">
-
     <meta name="webgains-site-verification" content="mrkvjoza">
-
     <link rel="apple-touch-icon" sizes="180x180" href="https://letyshops.com/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://letyshops.com/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://letyshops.com/favicon-16x16.png">
     <link rel="icon" type="image/x-icon" href="https://letyshops.com/favicon.ico">
-
     <link rel="manifest" href="https://letyshops.com/manifest.json">
     <link rel="mask-icon" href="https://letyshops.com/safari-pinned-tab.svg" color="#5bbad5">
-
     <meta name="theme-color" content="#ffffff">
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/lphicbbhfmllgmomkkhjfkpbdlncafbn">
     <link rel="yandex-store-item" href="yandex-store://cfnigebglkpdgidfjgpkkikmmkkdilph">
-    <link href="https://letyshops.com/ua-uk" rel="alternate" hreflang="uk-ua">
-    <link href="https://letyshops.com/ua" rel="alternate" hreflang="ru-ua">
-    <link href="https://letyshops.com/kz" rel="alternate" hreflang="ru-kz">
-    <link href="https://letyshops.com/by" rel="alternate" hreflang="ru-by">
-    <link href="https://letyshops.com/" rel="alternate" hreflang="ru-ru">
-    <link href="https://letyshops.com/es-en" rel="alternate" hreflang="en-es">
-    <link href="https://letyshops.com/es" rel="alternate" hreflang="es-es">
-    <link href="https://letyshops.com/de-en" rel="alternate" hreflang="en-de">
-    <link href="https://letyshops.com/de" rel="alternate" hreflang="de-de">
-    <link href="https://letyshops.com/nl-en" rel="alternate" hreflang="en-nl">
-    <link href="https://letyshops.com/nl-de" rel="alternate" hreflang="de-nl">
-    <link href="https://letyshops.com/be-de" rel="alternate" hreflang="de-be">
-    <link href="https://letyshops.com/be-en" rel="alternate" hreflang="en-be">
-    <link href="https://letyshops.com/at" rel="alternate" hreflang="de-at">
-    <link href="https://letyshops.com/at-en" rel="alternate" hreflang="en-at">
-    <link href="https://letyshops.com/ch-de" rel="alternate" hreflang="de-ch">
-    <link href="https://letyshops.com/ch-en" rel="alternate" hreflang="en-ch">
-    <link href="https://letyshops.com/fr-en" rel="alternate" hreflang="en-fr">
-    <link href="https://letyshops.com/it-en" rel="alternate" hreflang="en-it">
-    <link href="https://letyshops.com/pl-en" rel="alternate" hreflang="en-pl">
-    <link href="https://letyshops.com/fi-en" rel="alternate" hreflang="en-fi">
-    <link href="https://letyshops.com/gr-en" rel="alternate" hreflang="en-gr">
-    <link href="https://letyshops.com/pt-en" rel="alternate" hreflang="en-pt">
-    <link href="https://letyshops.com/dk-en" rel="alternate" hreflang="en-dk">
-    <link href="https://letyshops.com/se-en" rel="alternate" hreflang="en-se">
-    <link href="https://letyshops.com/no-en" rel="alternate" hreflang="en-no">
-    <link href="https://letyshops.com/cz-en" rel="alternate" hreflang="en-cz">
-    <link href="https://letyshops.com/ie" rel="alternate" hreflang="en-ie">
-    <link href="https://letyshops.com/gb" rel="alternate" hreflang="en-gb">
-    <meta name="description" content="Кэшбэк-сервис LetyShops возвращает часть денег с покупок в интернет магазинах Казахстана и мира. Используйте кэшбэк от ЛетиШопс и покупайте с пользой и удовольствием.">
+
+    <meta name="description" content="Кэшбэк-сервис GdeMoiCash возвращает часть денег с покупок в интернет магазинах Казахстана и мира. Используйте кэшбэк от GdeMoiCash и покупайте с пользой и удовольствием.">
     <meta name="keyword" content="">
 
     <meta name="robots" content="">
-    <link rel="canonical" href="https://letyshops.com/kz">
-
-
 
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="LetyShops">
-    <meta property="og:title" content="Кэшбэк-сервис LetyShops">
+    <meta property="og:site_name" content="GdeMoiCash">
+    <meta property="og:title" content="Кэшбэк-сервис GdeMoiCash">
     <meta property="og:description" content="Ты можешь вернуть часть своих денег на карту с онлайн-покупок. Кстати, с нами уже более 1300 магазинов, так что найдешь все — от квадрокоптера до тапочек своей бабуле.">
-    <meta property="og:url" content="https://letyshops.com/kz">
     <meta property="og:image" content="https://static.letyshops.com/sites/default/files/external_static/soc/share_new_brand_ru.png">
     <meta property="og:image:width" content="968">
     <meta property="og:image:height" content="504">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Кэшбэк-сервис LetyShops">
+    <meta name="twitter:title" content="Кэшбэк-сервис GdeMoiCash">
     <meta name="twitter:description" content="Ты можешь вернуть часть своих денег на карту с онлайн-покупок. Кстати, с нами уже более 1300 магазинов, так что найдешь все — от квадрокоптера до тапочек своей бабуле.">
     <meta name="twitter:image:src" content="https://static.letyshops.com/sites/default/files/external_static/soc/share_new_brand_ru.png">
     <meta name="twitter:url" content="https://letyshops.com/kz">
     <meta name="twitter:domain" content="https://letyshops.com">
     <link rel="stylesheet" href="/index_files/css">
     <link rel="stylesheet" href="/index_files/style.df39beb8194aa86804ba.css">
-    <style>
-        .text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links{
-            text-indent: -9999px;
-        }
-    </style>
 
-    <script async="" src="/index_files/modules-7b804fe854a1eeafa15731d35d6b9a9e.js.Без названия"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><style type="text/css">a[data-v-82963a40]{cursor:pointer}</style><style type="text/css">.notifications{display:block;position:fixed;z-index:5000}.notification-wrapper{display:block;overflow:hidden;width:100%;margin:0;padding:0}.notification{display:block;box-sizing:border-box;background:#fff;text-align:left}.notification-title{font-weight:600}.vue-notification{font-size:12px;padding:10px;margin:0 5px 5px;color:#fff;background:#44a4fc;border-left:5px solid #187fe7}.vue-notification.warn{background:#ffb648;border-left-color:#f48a06}.vue-notification.error{background:#e54d42;border-left-color:#b82e24}.vue-notification.success{background:#68cd86;border-left-color:#42a85f}.vn-fade-enter-active,.vn-fade-leave-active,.vn-fade-move{transition:all .5s}.vn-fade-enter,.vn-fade-leave-to{opacity:0}</style><script charset="utf-8" src="/index_files/global.df39beb8194aa86804ba.js.Без названия"></script><script charset="utf-8" src="/index_files/7.df39beb8194aa86804ba.js.Без названия"></script><script charset="utf-8" src="/index_files/6.df39beb8194aa86804ba.js.Без названия"></script><script type="text/javascript" async="" src="/index_files/openapi.js.Без названия"></script><script type="text/javascript" async="" src="/index_files/openapi.js(1).Без названия"></script></head>
+</head>
 
 <body class="logged-out scroll-up">
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLHK888"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <div id="svg-symbols" style="display: none;">
     <svg>
