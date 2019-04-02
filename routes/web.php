@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'IndexController@welcome');
-Route::get('/shops/{id}', 'IndexController@catalog');
-
+Route::get('/', 'IndexController@welcome')->name('home');
+Route::get('/shops', 'ShopController@shops')->name('shops');
+Route::get('/shop/{id}', 'ShopController@show');
+Route::get('referral-program', 'PageController@referral')->name('referral');
 Route::get('/user', 'UserController@cabinet');

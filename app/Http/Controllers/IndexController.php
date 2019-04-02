@@ -5,20 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Shop;
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
+class IndexController extends BaseController
 {
     public function welcome()
     {
-        $offers = Shop::all();
-        return view('welcome', compact('offers'));
-    }
-
-    public function catalog($shop_id)
-    {
-        $shop = Shop::find($shop_id);
-        if (!$shop) {
-            abort(404);
-        }
-        return view('catalog', compact('shop'));
+        $offers = Shop::whereStatus('active')->limit(16)->get();
+        return view('index', compact('offers'));
     }
 }
