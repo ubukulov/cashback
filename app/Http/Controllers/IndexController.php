@@ -9,7 +9,7 @@ class IndexController extends BaseController
 {
     public function welcome()
     {
-        $offers = Shop::whereStatus('active')->limit(16)->get();
+        $offers = Shop::whereStatus('active')->where('gotolink', '!=', null)->limit(16)->get();
         return view('index', compact('offers'));
     }
 }

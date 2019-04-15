@@ -16,7 +16,11 @@
                             @endif
                         </span>
                     </div><!-- cashback -->
-                    <a href="#" class="shop__btn">Перейти в магазин →</a>
+                    @if(Auth::check())
+                        <a href="{{ $shop->gotolink."?subid=".Auth::user()->id }}" class="shop__btn">Перейти в магазин →</a>
+                    @else
+                        <a href="{{ $shop->gotolink }}" class="shop__btn">Перейти в магазин →</a>
+                    @endif
                 </div>
                 <div class="shop-rating">
                     <h3 class="shop-rating__title">Общая оценка магазина ({{ $shop->rating }})</h3>
