@@ -128,9 +128,12 @@ class Admitad extends Command
                         $this->info("Categories updated");
                     }
                 });
+                $this->info("Партнер ".$offer['name']." создан успешно.");
+            } else {
+                $shop = Shop::find($offer['id']);
+                $shop->update($offer);
+                $this->info("Партнер ".$offer['name']." успешно обновлено.");
             }
         }
-
-        $this->info("Shops updated");
     }
 }
